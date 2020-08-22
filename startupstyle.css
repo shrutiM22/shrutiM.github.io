@@ -1,0 +1,50 @@
+body,
+html{
+    height: 100%;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    background: url(laptop.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container{
+    margin-top:200px;
+}
+
+h1{
+    color: #d6add3f7;
+    font-size: 3em;
+}
+
+.buffer{
+    height: 50px;
+}
+
+.btn-xl{
+    padding: 2rem 2.5rem;
+}
+
+.btn-primary{
+    background-color: #e26fb1;
+    border-color: #e26fb1;
+}
+
+.btn-primary:hover{
+    background-color: #bf1c89;
+    border-color: #bf1c89;
+    border-width: 3px;
+}
+
+.btn{
+    border-radius: 140px;
+    text-transform: uppercase;
+    font-weight: 900px;
+}
+
+hr{
+    border-color: #e26fb1;
+    border-width: 2px;
+    max-width: 80px;
+}
